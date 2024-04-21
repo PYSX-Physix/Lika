@@ -2,6 +2,7 @@ import { buttonClassName } from "@/components/Button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 
+
 interface PageProps {
   params: { id: string };
 }
