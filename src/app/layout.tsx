@@ -9,8 +9,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Meetings App",
-  description: "A video calling app built with Next.js & Stream",
+  title: "Lika",
+  description: "A video calling app built by one person.",
 };
 
 export default function RootLayout({

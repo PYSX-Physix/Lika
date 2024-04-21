@@ -86,7 +86,7 @@ export default function CreateMeetingPage() {
           onChange={setParticipantsInput}
         />
         <Button onClick={createMeeting} className="w-full">
-          Create meeting
+          Create a Meeting
         </Button>
       </div>
       {call && <MeetingLink call={call} />}
@@ -114,7 +114,7 @@ function DescriptionInput({ value, onChange }: DescriptionInputProps) {
             onChange("");
           }}
         />
-        Add description
+        Add a Description
       </label>
       {active && (
         <label className="block space-y-1">
@@ -147,7 +147,7 @@ function StartTimeInput({ value, onChange }: StartTimeInputProps) {
 
   return (
     <div className="space-y-2">
-      <div className="font-medium">Meeting start:</div>
+      <div className="font-medium">Meeting Starting Time:</div>
       <label className="flex items-center gap-1.5">
         <input
           type="radio"
@@ -157,7 +157,7 @@ function StartTimeInput({ value, onChange }: StartTimeInputProps) {
             onChange("");
           }}
         />
-        Start meeting immediately
+        Start Meeting Now
       </label>
       <label className="flex items-center gap-1.5">
         <input
@@ -168,11 +168,11 @@ function StartTimeInput({ value, onChange }: StartTimeInputProps) {
             onChange(dateTimeLocalNow);
           }}
         />
-        Start meeting at date/time
+        Start Meeting at Date/Time
       </label>
       {active && (
         <label className="block space-y-1">
-          <span className="font-medium">Start time</span>
+          <span className="font-medium">Start Time</span>
           <input
             type="datetime-local"
             value={value}

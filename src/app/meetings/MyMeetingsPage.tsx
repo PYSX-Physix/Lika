@@ -38,7 +38,7 @@ export default function MyMeetingsPage() {
 
   return (
     <div className="space-y-3">
-      <h1 className="text-center text-2xl font-bold">My Meetings</h1>
+      <h1 className="text-center text-2xl font-bold">Meetings</h1>
       {!calls && <Loader2 className="mx-auto animate-spin" />}
       {calls?.length === 0 && <p>No meetings found</p>}
       <ul className="list-inside list-disc space-y-2">
