@@ -1,5 +1,5 @@
 "use client";
-
+export const runtime = 'edge';
 import Button from "@/components/Button";
 import { useUser } from "@clerk/nextjs";
 import {

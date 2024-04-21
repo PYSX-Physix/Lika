@@ -1,7 +1,7 @@
 import { buttonClassName } from "@/components/Button";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-
+export const runtime = 'edge';
 
 interface PageProps {
   params: { id: string };

@@ -2,7 +2,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { Metadata } from "next";
 import MeetingLoginPage from "./MeetingLoginPage";
 import MeetingPage from "./MeetingPage";
-
+export const runtime = 'edge';
 
 interface PageProps {
   params: { id: string };

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 import { ClerkLoaded, ClerkLoading, SignInButton } from "@clerk/nextjs";
 import { Loader2 } from "lucide-react";
 import Link from "next/link";
-
+export const runtime = 'edge';
 
 export default function MeetingLoginPage() {
   return (

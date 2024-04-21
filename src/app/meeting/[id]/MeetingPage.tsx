@@ -19,7 +19,7 @@ import {
 import { Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+export const runtime = 'edge';
 
 interface MeetingPageProps {
   id: string;
