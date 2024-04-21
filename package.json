@@ -13,6 +13,7 @@
     "@stream-io/node-sdk": "^0.1.13",
     "@stream-io/video-react-sdk": "^0.5.12",
     "clsx": "^2.1.0",
+    "edge-runtime": "^2.5.9",
     "lucide-react": "^0.344.0",
     "nanoid": "^5.0.7",
     "next": "14.1.2",
