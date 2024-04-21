@@ -1,6 +1,5 @@
 "use client";
 
-export const runtime = 'edge';
 export default function ErrorPage() {
   return (
     <div className="space-y-3 text-center">

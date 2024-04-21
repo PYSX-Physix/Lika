@@ -5,7 +5,6 @@ import { Call, useStreamVideoClient } from "@stream-io/video-react-sdk";
 import { Loader2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-export const runtime = 'edge';
 
 export default function MyMeetingsPage() {
   const { user } = useUser();
